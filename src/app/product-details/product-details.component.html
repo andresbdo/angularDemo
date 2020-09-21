@@ -1,0 +1,12 @@
+<div class="mt-2">
+    <h1>Detalles</h1>
+    <hr/>
+    <div class="card mt-3 p-3"> 
+        <img class="img-thumbnail" width="300px" height="250px" src={{product.imageUrl}} />
+        <h2>{{product.name}}</h2>
+        <p>{{product.category}}</p>
+        <p>{{product.description}}</p>
+        <p>{{product.price}}</p>
+    </div>
+    <button class="btn btn-primary mt-3" (click)="onGoBack()">Ir atrás</button>
+</div>
